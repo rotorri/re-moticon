@@ -12,7 +12,7 @@ body:
       label: 요청 내용 작성
       value: |
         * 예약어 :
-        * 이모티콘 이미지 :
+        * 이모티콘 이미지 주소 :
       render: bash
     validations:
       required: true
