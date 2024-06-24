@@ -1,0 +1,18 @@
+title: "이모티콘 추가 요청"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        추가 요청할 이모티콘의 이미지와 예약어를 작성하여 제출해주세요. 제출된 요청은 다른 사람의 찬성 의견이 20개 이상 누적되었을 경우, 추가 예정으로 옮겨집니다.
+
+        제목은 별도로 변경하지 않아도 됩니다.
+  - type: textarea
+    id: request
+    attributes:
+      label: 요청 내용 작성
+      value: |
+        * 예약어 :
+        * 이모티콘 이미지 :
+      render: bash
+    validations:
+      required: true
